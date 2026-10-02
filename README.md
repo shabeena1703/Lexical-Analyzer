@@ -27,13 +27,21 @@ The lexical analyzer reads the C source file character by character and identifi
 It recognizes:
 
 -> Keywords
+
 -> Identifiers
+
 -> Numbers
+
 -> Operators
+
 -> Special symbols
+
 -> String literals
+
 -> Comments
+
 -> Preprocessor directives
+
 -> Standard I/O functions such as `printf`
 
 ### 🔹 Syntax Analysis
@@ -43,27 +51,45 @@ The syntax analyzer checks whether the source code follows basic C syntax rules.
 It checks for:
 
 -> Missing `main()` function
+
 -> Invalid `main()` declaration
+
 -> Missing header files
+
 -> Invalid header format
+
 -> Missing `printf()` statement
+
 -> Missing semicolons
+
 -> Missing variable names
+
 -> Undefined variables
+
 -> Invalid assignment statements
+
 -> Missing RHS in assignments
+
 -> Unmatched parentheses
+
 -> Unmatched braces
+
 -> Invalid symbols
 
 This project helped me understand:
 
 -> How a compiler analyzes source code
+
 -> How lexical tokens are identified
+
 -> How syntax errors can be detected
+
 -> File handling in C
+
 -> String and character processing
+
 -> Modular programming
+
 -> Use of C library functions such as `fgets()`, `fgetc()`, `strstr()`, `strcmp()`, `isalnum()`, and `isspace()`
 
 ---
