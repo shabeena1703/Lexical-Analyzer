@@ -1,4 +1,4 @@
-# 🔍 Lexical Analyzer & Syntax Analyzer
+# 🔍 Lexical Analyzer 
 
 ---
 
@@ -20,7 +20,7 @@ A compiler processes source code in multiple stages before converting it into ma
 
 This project focuses on two important stages:
 
-### 🔹 Lexical Analysis
+**🔹 Lexical Analysis**
 
 The lexical analyzer reads the C source file character by character and identifies different types of tokens.
 
@@ -44,7 +44,7 @@ It recognizes:
 
 -> Standard I/O functions such as `printf`
 
-### 🔹 Syntax Analysis
+**🔹 Syntax Analysis**
 
 The syntax analyzer checks whether the source code follows basic C syntax rules.
 
@@ -196,32 +196,32 @@ The input file may contain:
 
 ## 🛠️ Tools and Technologies Used
 
-### Programming Language
+**Programming Language**
 
 ```text
 C
 ```
 
-### Operating System
+**Operating System**
 
 ```text
 Linux (Ubuntu)
 ```
 
-### Compiler
+**Compiler**
 
 ```text
 GCC
 ```
 
-### Development Tools
+**Development Tools**
 
 ```text
 VS Code
 Git & GitHub
 ```
 
-### Concepts Used
+**Concepts Used**
 
 ```text
 Lexical Analysis
@@ -251,7 +251,7 @@ Error Detection
 
 ## 🔧 Methods
 
-### 🔍 Lexical Analysis Process
+**🔍 Lexical Analysis Process**
 
 The lexical analyzer reads the input file character by character.
 
@@ -296,7 +296,7 @@ Special symbol   : ;
 
 ---
 
-### 🧠 Syntax Analysis Process
+** 🧠 Syntax Analysis Process**
 
 The syntax analyzer reads the C source file line by line and performs different checks.
 
@@ -332,7 +332,7 @@ It verifies:
 
 The syntax analyzer generates error messages when common syntax problems are found.
 
-### Example 1 — Missing semicolon
+** Example 1 — Missing semicolon**
 
 ```c
 int b = 10 + 5
@@ -344,7 +344,7 @@ Output:
 Error (line 8): Missing semicolon in declaration
 ```
 
-### Example 2 — Undefined variable
+**Example 2 — Undefined variable**
 
 ```c
 b = 10 + 5;
@@ -358,7 +358,7 @@ Output:
 Error (line 8): Undefined variable 'b'
 ```
 
-### Example 3 — Missing variable name
+** Example 3 — Missing variable name**
 
 ```c
 int;
@@ -370,7 +370,7 @@ Output:
 Error (line 9): Missing variable name in declaration
 ```
 
-### Example 4 — Unmatched parentheses
+**Example 4 — Unmatched parentheses**
 
 ```c
 for(i=0;i<5;i++
@@ -382,7 +382,7 @@ Output:
 Error (line 12): Unmatched parentheses
 ```
 
-### Example 5 — Missing `main()` function
+** Example 5 — Missing `main()` function**
 
 If the input program does not contain a valid `main()` function:
 
@@ -441,7 +441,7 @@ Error: Missing main() function in program
 
 The program displays the results of both lexical and syntax analysis.
 
-### 🔍 Lexical Analysis
+** 🔍 Lexical Analysis**
 
 Example:
 
@@ -464,7 +464,7 @@ Special symbol         : )
 Special symbol         : ;
 ```
 
-### 🧠 Syntax Analysis
+**🧠 Syntax Analysis**
 
 For an invalid C program, errors are displayed with their corresponding line numbers:
 
