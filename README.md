@@ -332,7 +332,7 @@ It verifies:
 
 The syntax analyzer generates error messages when common syntax problems are found.
 
-** Example 1 — Missing semicolon**
+**Example 1 — Missing semicolon**
 
 ```c
 int b = 10 + 5
