@@ -481,25 +481,25 @@ Error (line 8): Undefined variable 'b'
 
 ## 🚀 How to Run This Project
 
-### Clone Repository
+**Clone Repository**
 
 ```bash
 git clone https://github.com/shabeena1703/Lexical-Analyzer.git
 ```
 
-### Navigate to Project Folder
+**Navigate to Project Folder**
 
 ```bash
 cd Lexical-Analyzer
 ```
 
-### Compile
+**Compile**
 
 ```bash
 gcc main.c lexer.c parser.c -o lexical_analyzer
 ```
 
-### Run
+**Run**
 
 ```bash
 ./lexical_analyzer sample.c
