@@ -296,7 +296,7 @@ Special symbol   : ;
 
 ---
 
-** 🧠 Syntax Analysis Process**
+**🧠 Syntax Analysis Process**
 
 The syntax analyzer reads the C source file line by line and performs different checks.
 
@@ -358,7 +358,7 @@ Output:
 Error (line 8): Undefined variable 'b'
 ```
 
-** Example 3 — Missing variable name**
+**Example 3 — Missing variable name**
 
 ```c
 int;
@@ -382,7 +382,7 @@ Output:
 Error (line 12): Unmatched parentheses
 ```
 
-** Example 5 — Missing `main()` function**
+**Example 5 — Missing `main()` function**
 
 If the input program does not contain a valid `main()` function:
 
@@ -441,7 +441,7 @@ Error: Missing main() function in program
 
 The program displays the results of both lexical and syntax analysis.
 
-** 🔍 Lexical Analysis**
+**🔍 Lexical Analysis**
 
 Example:
 
